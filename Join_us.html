@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Join Us</title>
+    <link rel="stylesheet" href="Join_us.css">
+</head>
+<body>
+    
+  <div id="d1">
+    <div id="d2">
+    <frameset cols="25%,15%,15%,15%,15%,15%">
+        <frame><span><a href="Homepage.html"><img src="https://www.codekaroyaaro.com/img/Suvidha-Foundation.png" alt="Suvidha Foundation" id="logo"></a></span>
+        <frame><span><a href="Homepage.html" class="home" id="nav"><button>Home</button></a></span>
+        <frame><span><a href="Homepage.html" class="aboutus" id="nav"><button>About Us</button></a></span>
+        <frame><span><a href="Homepage.html" class="programs" id="nav"><button>Programs</button></a></span>
+        <frame><span><a href="#" class="joinus" id="nav"><button id="ju">Join Us</button></a></span>
+        <frame><span><a href="Homepage.html" class="contactus" id="nav"><button>Contact Us</button></a></span>
+    </frameset>
+</div>
+</div>
+
+<form action="join_us_backend.php" method="post">
+    <div class="container">
+      <h1 style="color: rgb(0, 126, 87);">Join Us</h1>
+      <hr style="height: 2px; border-radius: 2px; width: 90px; margin-left: 8px;" color="rgb(190 255 228)">
+      <label for="name"><b>Name</b></label><br>
+      <input type="text" placeholder="Enter Name" name="name" required><br><br>
+  
+      <label for="email"><b>Email</b></label><br>
+      <input type="email" placeholder="Enter Email" name="email" required><br><br>
+  
+      <label for="phone"><b>Mobile Number</b></label><br>
+      <input type="number" placeholder="Enter Mobile Number" name="phone" required><br><br>
+  
+      <label for="role"><b>Choose Your Role</b></label><br>
+        <select name="role" id="role">
+        <option value="role">Select Role</option>
+        <option value="intern">Intern</option>
+        <option value="expert">Expert</option>
+        <option value="mentor">Mentor</option>
+        <option value="advisor">Advisor</option>
+        </select><br><br>
+
+      <div class="clearfix">
+        <button type="reset" class="reset">Reset</button>
+        <button type="submit" class="register">Register</button><br><br>
+        <a href="Homepage.html" id="a_bth"><button type="button" class="Home" id="bth">Back To Home</button></a>
+      </div>
+    </div>
+  </form>
+</body>
+</html>

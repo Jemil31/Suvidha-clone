@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 126, 87);
+}
+
+#d1{
+    background-color: rgb(0, 126, 87);
+    border-radius: 0 0 7px 7px;
+    height: 95px;
+    width: auto;
+    box-shadow: 2px 2px 18px rgb(56, 54, 54);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo{
+    height: 15%;
+    width: 20%;
+    padding: 8px 0 0 15px;
+    float: left;
+    margin-right: 450px;
+}
+
+#nav{
+    float: left;
+    margin: 25px 0 0 20px;
+}
+
+.container{
+    border-radius: 10px;
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    width: auto;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+label{
+    font-family: Sans-serif;
+    font-size: 18px;
+    color: rgb(0, 126, 87);
+    padding: 8px;
+}
+
+input, select{
+    height: 25px;
+    width: 255px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+select{
+    height: 30px;
+    width: 260px;
+}
+
+button{
+    height: 35px;
+    width: 130px;
+    font-family: Sans-serif;
+    font-size: 16px;
+    background-color: rgb(0, 126, 87);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 126, 87);
+    cursor: pointer;
+}
+
+#bth, #a_bth{
+    width: 260px;
+    text-decoration: none;
+    color: white;
+}
+
+#bth:hover, #a_bth:hover{
+    width: 260px;
+    text-decoration: none;
+    color: black;
+}
+
+#ju{
+    height: 35px;
+    width: 130px;
+    font-family: Sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 126, 87);
+    cursor: pointer;
+
+}
